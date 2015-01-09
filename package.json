@@ -1,0 +1,18 @@
+{
+  "name": "ip-lookup",
+  "version": "0.0.1",
+  "description": "Lookup the physical address of given IP address",
+  "license": "CC0-1.0",
+  "author": {
+    "name": "Wenming Wang",
+    "email": "wangwenming1985@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wangwenming/ip-lookup.git"
+  },
+  "devDependencies": {
+    "mocha": "2.1.x",
+    "chai": "1.10.x"
+  }
+}
