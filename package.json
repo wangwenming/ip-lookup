@@ -1,6 +1,6 @@
 {
   "name": "ip-lookup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lookup the physical address of given IP address",
   "license": "CC0-1.0",
   "author": {
