@@ -7,7 +7,7 @@ function comparator(ipLong, record) {
         return -1;
     }
 
-    if (ipLong < record[1]) {
+    if (ipLong > record[1]) {
         return 1;
     }
 
@@ -22,7 +22,7 @@ function IpLookup(dictPath) {
 
     this.dict = [];
     content.split('\n').forEach(function(line) {
-        self.dict.push(line.split('    '));
+        self.dict.push(line.split('\t'));
     });
 }
 IpLookup.prototype.lookup = function(ip) {
