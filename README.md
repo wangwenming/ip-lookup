@@ -25,3 +25,5 @@ var address = ipLookup.lookup('180.149.156.149');
 
 ## NOTE
 请自己下载IP库，ip.sample.txt 只是一个示例的IP库
+
+https://travis-ci.org/wangwenming/ip-lookup.svg?branch=master
